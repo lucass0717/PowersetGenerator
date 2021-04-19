@@ -1,0 +1,48 @@
+#main {
+    margin-top: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align:center;
+}
+
+#setSizeSlider {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px; 
+    background: #e2dfdf;
+    outline: none;
+    opacity: 0.6;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+#setSizeSlider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+#setSizeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%;
+    background: #93b6f0; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#canvas {
+    text-align: center;
+}
+
+button {
+    background-color: #e2dfdf;
+    border: none;
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    opacity: 0.6;
+}
