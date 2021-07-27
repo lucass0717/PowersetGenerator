@@ -39,6 +39,7 @@ function genAllPowerSets(){
         table_powersets.push(genPowerSet(i));
 }
 
+// THIS DETERMINES WHICH JUSTIFICATION TO DRAW THE SUBSETS IN
 function drawSubsets(){
     if((justification && g_setsize > 1) || (!justification && g_setsize==1))
         drawSubsetsCenter(g_setsize);
